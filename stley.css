@@ -22,12 +22,26 @@ input{
     outline: none;
 }
 
+
+:root{
+    --cor-fundo: blue;
+}
+
+
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100vw;
     height: 100vh;
+    background-color: var(--cor-fundo);
+    transition: 1s;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
 }
 
 #cor{
@@ -40,4 +54,5 @@ body{
     background-color: #00000085;
     height: 20px;
     padding: 5px;
+    color: aliceblue;
 }
