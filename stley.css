@@ -45,14 +45,13 @@ body{
 }
 
 #cor{
-    background-color: #00000085;
+    background-color: #ffffff;
     height: 20px;
     padding: 5px;
 }
 
 #trocar-cor{
-    background-color: #00000085;
+    background-color: #ffffff;
     height: 20px;
     padding: 5px;
-    color: aliceblue;
 }
