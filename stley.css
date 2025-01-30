@@ -41,17 +41,20 @@ body{
 .container{
     display: flex;
     align-items: center;
-    color: aliceblue;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid black;
 }
 
 #cor{
-    background-color: #ffffff;
     height: 20px;
     padding: 5px;
+    background-color: transparent;
 }
 
 #trocar-cor{
-    background-color: #ffffff;
     height: 20px;
     padding: 5px;
+    background-color: transparent;
 }
